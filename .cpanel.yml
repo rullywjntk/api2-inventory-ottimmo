@@ -1,0 +1,5 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/u1562270/repositories/api2-inventory-ottimmo
+ - /usr/bin/rsync -Paz * $DEPLOYPATH --delete
